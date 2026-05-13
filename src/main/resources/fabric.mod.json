@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "infinite-friends",
+	"version": "${version}",
+	"name": "Infinite Friends",
+	"description": "Removes the 8 player limit for p2p servers",
+	"authors": [
+		"kototrek"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/infinite-friends/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ru.kototrek.inf_friends.InfiniteFriends"
+		]
+	},
+	"mixins": [
+		"infinite-friends.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.2-",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

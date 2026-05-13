@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "ru.kototrek.inf_friends.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"IntegratedServerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
